@@ -222,7 +222,7 @@ const About = () => {
                 </div> */}
               </Col>
               <Col lg={6} md={6}>
-                <h3>Education / Certifications</h3>
+                <h3>Education & Certifications</h3>
                 <div className="space16" />
                 <div className="about-others-box" data-aos="zoom-in" data-aos-duration={1100}>
                   <Link href="">August 2025 - Present</Link>

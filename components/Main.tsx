@@ -69,7 +69,7 @@ const Main = () => {
           <div className="space24" />
           <div className="main-btn-area" data-aos="fade-up" data-aos-duration={1200}>
             <Link href="#portfolio">
-              My Recent Projects
+              My Projects
               <span>
                 <FaArrowRight className="fa-solid" />
               </span>
