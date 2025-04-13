@@ -26,21 +26,21 @@ const Contact = () => {
           <Container>
             <Row>
               <Col lg={12}>
-                <div className="contact-heading heading1">
+                {/* <div className="contact-heading heading1">
                   <h5 data-aos="fade-left" data-aos-duration={900}>
                     <Image src={Sublogo} alt="" />
                     Contact Me
                   </h5>
                   <div className="space24" />
                   <h2 data-aos="fade-left" data-aos-duration={1000}>
-                    Have Any Project in
+                    Have Any Projects in
                   </h2>
                   <div className="space24" />
                   <h2 className="head" data-aos="fade-left" data-aos-duration={1100}>
-                    Mind, <span>Lets Talk</span>
+                    Mind, <span>Please connect</span>
                   </h2>
-                </div>
-                <div className="space50" />
+                </div> */}
+                {/* <div className="space50" />
                 <div className="contact-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
                   <h3>Let’s Work Together!</h3>
                   <div className="space12" />
@@ -83,17 +83,17 @@ const Contact = () => {
                       </div>
                     </Col>
                   </Row>
-                </div>
+                </div> */}
               </Col>
               <Col lg={12}>
                 <div className="space50" />
                 <div className="footer-area">
                   <div className="btn-area1">
-                    <Link href="/">
+                    {/* <Link href="/">
                       <Image src={Logo1} alt="" />
-                    </Link>
+                    </Link> */}
                   </div>
-                  <p>© {currentYear} OVRO. All Rights Reserved.</p>
+                  <p>© {currentYear} OsoTech. All Rights Reserved.</p>
                 </div>
               </Col>
             </Row>

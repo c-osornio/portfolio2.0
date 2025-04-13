@@ -1,4 +1,13 @@
 'use client'
+import Python from '@/assets/img/logo/icons8-python-48.png'
+import R from '@/assets/img/logo/icons8-r-project-48.png'
+import Tableau from '@/assets/img/logo/icons8-tableau-software-48.png'
+import Bi from '@/assets/img/logo/icons8-power-bi-48.png'
+import MySQL from '@/assets/img/logo/icons8-mysql-48.png'
+import Java from '@/assets/img/logo/icons8-java-48.png'
+import JS from '@/assets/img/logo/icons8-javascript-48.png'
+import AWS from '@/assets/img/logo/icons8-aws-48.png'
+import JN from '@/assets/img/logo/icons8-jupyter-48.png'
 import Other1 from '@/assets/img/all-images/others/others1.png'
 import Elements1 from '@/assets/img/elements/elements1.png'
 import Arrow from '@/assets/img/icons/arrow1.svg'
@@ -21,40 +30,46 @@ const Main = () => {
   }, [])
   return (
     <>
-      <div id="list-item-1">
+      <div id="home">
         <div className="hero-heading-area heading1">
           <h5 data-aos="fade-left" data-aos-duration={800}>
             <Image src={Sublogo1} alt="" />
-            Hi, I’m Alex, UI/UX Designer
+            Hi, I’m Carlos, Data Analyst and Software Developer
           </h5>
           <div className="space24" />
           <h1 data-aos="fade-left" data-aos-duration={900}>
-            Designing Intuitive
+            Transforming Data
           </h1>
           <div className="space24" />
           <h1 className="head" data-aos="fade-left" data-aos-duration={1000}>
-            Experiences <span>Inspire</span>
+            Into <span>Breakthroughs</span>
           </h1>
           <div className="space24" />
-          <p data-aos="fade-left" data-aos-duration={1100}>
-            Your gateway to innovative design, seamless user experiences, and impactful solutions. Turning complex ideas into user-friendly designs.
-          </p>
+          {/* <div color='white'>
+          <h3 color='white' data-aos="fade-left" data-aos-duration={1100}>
+            With expertise spanning from predictive analytics to full-stack web development, I specialize in bridging the gap between raw data and business value. Through my work, I've helped organizations not just understand their data, but leverage it to make informed decisions and achieve measurable results.
+          </h3>
+          </div> */}
+          <div className="space24" />
           <div className="arrow" data-aos="fade-left" data-aos-duration={1200}>
-            <Link href="">
-              <Image src={Elements1} alt="" className="elements1 keyframe5" />
-              <Image src={Arrow} alt="" className="arrow1" />
-            </Link>
-            <div className="images">
-              <Image src={Other1} alt="" />
-              <p>
-                2k+ reviews <br /> (4.90 of 5)
-              </p>
-            </div>
+              {/* <Link href="">
+                <Image src={Elements1} alt="" className="elements1 keyframe5" />
+                <Image src={Arrow} alt="" className="arrow1" />
+              </Link> */}
+              <Image src={Python} alt="python" />
+              <Image src={Java} alt="java" padding-left='20pt'/>
+              <Image src={JS} alt="javascript" padding-left='20pt'/>
+              <Image src={R} alt="r" padding-left='20pt'/>
+              <Image src={JN} alt="jupyter notebook" padding-left='20pt'/>
+              <Image src={Tableau} alt="tableau" padding-left='20pt'/>
+              <Image src={Bi} alt="powerBi" padding-left='20pt'/>
+              <Image src={MySQL} alt="MySQL" padding-left='20pt'/>
+              <Image src={AWS} alt="AWS" padding-left='40pt'/>
           </div>
-          <div className="space32" />
+          <div className="space24" />
           <div className="main-btn-area" data-aos="fade-up" data-aos-duration={1200}>
-            <Link href="">
-              Lets Work Together
+            <Link href="#portfolio">
+              My Recent Projects
               <span>
                 <FaArrowRight className="fa-solid" />
               </span>

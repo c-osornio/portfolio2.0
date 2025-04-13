@@ -1,7 +1,7 @@
 'use client'
 import Bars from '@/assets/img/icons/bars-icons1.svg'
 import Mail1 from '@/assets/img/icons/mail1.svg'
-import Logo from '@/assets/img/logo/logo1.png'
+import Logo from '@/assets/img/logo/data.svg'
 import Logo2 from '@/assets/img/logo/logo2.png'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -24,18 +24,19 @@ const TopNav = () => {
               <Col lg={12}>
                 <div className="header-elements">
                   <div className="site-logo">
-                    <Link href="/">
+                    {/* <h3><Link href="/">
                       <Image src={Logo} alt="" />
                     </Link>
+                    </h3> */}
                   </div>
                   <div className="btn-area d-lg-flex">
                     <ThemeToggle />
-                    <Link href="/" className="vl-btn1">
+                    {/* <Link href="/" className="vl-btn1">
                       HIRE ME&nbsp;
                       <span>
                         <Image src={Mail1} alt="" />
                       </span>
-                    </Link>
+                    </Link> */}
                     <button onClick={handleShow} className="hamburger_menu" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasMenu">
                       <Image src={Bars} alt="" />
                     </button>
@@ -51,28 +52,28 @@ const TopNav = () => {
         <div className="slide-bar slide-bar1" style={{ padding: '50px' }}>
           <div className="sidebar-info">
             <div className="sidebar-logo">
-              <Link href="/">
+              {/* <Link href="/">
                 <Image src={Logo2} alt="logo" />
-              </Link>
+              </Link> */}
             </div>
             <div className="sidebar-content">
               <ul>
                 <li>
-                  <a href="#list-item-1">Home</a>
+                  <a href="#home">Home</a>
                 </li>
                 <li>
-                  <a href="#list-item-2">About Us</a>
+                  <a href="#about">About Me</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#list-item-3">service</a>
+                </li> */}
+                <li>
+                  <a href="#skills">Skills</a>
                 </li>
                 <li>
-                  <a href="#list-item-4">Skill</a>
+                  <a href="#portfolio">Portfolio</a>
                 </li>
-                <li>
-                  <a href="#list-item-5">Portfolio</a>
-                </li>
-                <li>
+                {/* <li>
                   <a href="#list-item-6">Testimonial</a>
                 </li>
                 <li>
@@ -80,19 +81,19 @@ const TopNav = () => {
                 </li>
                 <li>
                   <a href="#list-item-8">Contact</a>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="space32" />
             <div className="space16" />
             <div className="btn-area">
-              <Link href="" className="vl-btn1">
+              {/* <Link href="" className="vl-btn1">
                 Get in touch now <Image src={Mail1} alt="" />
-              </Link>
+              </Link> */}
             </div>
             <div className="space40" />
             <div className="social-link-area">
-              <h3 className="sidebar-heading">Social Links</h3>
+              {/* <h3 className="sidebar-heading">Social Links</h3>
               <ul>
                 <li>
                   <Link href="">
@@ -111,10 +112,10 @@ const TopNav = () => {
                     <FaYoutube className="fa-brands" />
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </div>
             <div className="space40" />
-            <div className="form-area" style={{ width: '90%' }}>
+            {/* <div className="form-area" style={{ width: '90%' , height:'100%'}}>
               <h3>Subscribe To Newsletter</h3>
               <Form>
                 <input type="text" placeholder="Email Address*" />
@@ -122,7 +123,7 @@ const TopNav = () => {
                   subscribe
                 </button>
               </Form>
-            </div>
+            </div> */}
           </div>
         </div>
       </Offcanvas>

@@ -1,203 +1,60 @@
-'use client'
-import React from 'react'
-import Preview1 from '@/assets/img/all-images/hero/preview-img1.png'
-import Preview2 from '@/assets/img/all-images/hero/preview-img2.png'
-import Aos from 'aos'
-import Image from 'next/image'
-import Link from 'next/link'
-import { useEffect } from 'react'
-import { Col, Row } from 'react-bootstrap'
+import IconVertical from '@/components/IconVertical'
+import { default as SidebarPage } from '@/components/Sidebar'
+import TopNav from '@/components/TopNav'
+import { Col, Container, Row } from 'react-bootstrap'
+import About from '@/components/About'
+import Blog from '@/components/Blog'
+import Contact from '@/components/Contact'
+import Main from '@/components/Main'
+import Portfolio from '@/components/Portfolio'
+import Service from '@/components/Service'
+import Skills from '@/components/Skills'
+import Testimonial from '@/components/Testimonials'
 
-const PreviewPage = () => {
-  useEffect(() => {
-    Aos.init({
-      duration: 1000,
-      once: true,
-    })
-    return () => {
-      Aos.refresh()
-    }
-  }, [])
-
+const Home = () => {
   return (
     <>
       <div className="body1">
-        <div className="preview-header-area">
-          <div className="container">
+        <TopNav />
+        <div className="space50" />
+        <div className="main-hero-area5 parallaxie">
+        <video className="body-overlay" muted autoPlay loop>
+            <source src="/video5.mp4" type="video/mp4" />
+          </video>
+          <Container>
             <Row>
-              <Col lg={10} className=" m-auto">
-                <div className="heading1 text-center">
-                  <h5>VERSION 1.0</h5>
-                  <div className="space20" />
-                  <h2 className="head" data-aos="fade-up" data-aos-duration={1000}>
-                    Personal Portfolio <span>One Page</span> Next.Js Template
-                  </h2>
+              <Col lg={4}>
+                <div className="personal-contact-box" data-aos="fade-right" data-aos-duration={1000}>
+                  <IconVertical />
+                  <SidebarPage />
                 </div>
-                <div className="space80 d-lg-block d-none" />
-                <div className="space40 d-lg-none d-block" />
+              </Col>
+              <Col lg={8}>
+                <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" className="scrollspy-example" tabIndex={0}>
+                <div className="space50" />
+                  <Main />
+                  <div className="space50" />
+                  <About />
+                  {/* <Service /> */}
+                  <div className="space50" />
+                  <Skills />
+                  <div className="space30" />
+                  <Portfolio />
+                  {/* <div className="space30" /> */}
+                  {/* <Testimonial /> */}
+                  {/* <div className="space30" /> */}
+                  {/* <Blog /> */}
+                  <div className="space60" />
+                  <Contact />
+                </div>
               </Col>
             </Row>
-            <Row>
-              <Col lg={12} className="m-auto">
-                <div className="images-area" data-aos="fade-up" data-aos-duration={1000}>
-                  <div className="img1">
-                    <Link href="/demo-1">
-                      <Image src={Preview1} alt="" />
-                    </Link>
-                  </div>
-                  <div className="space32" />
-                  <div className="text text-center">
-                    <Link href="/demo-1">
-                      Main Demo
-                    </Link>
-                  </div>
-                </div>
-                <div className="space100 d-lg-block d-none" />
-                <div className="space50 d-lg-none d-block" />
-                <Row>
-                  <Col lg={6} data-aos="fade-right" data-aos-duration={1000}>
-                    <div className="images-area2">
-                      <div className="img1">
-                        <Link href="/demo-2">
-                          <video muted autoPlay loop>
-                            <source src="/video1.mp4" type="video/mp4" />
-                          </video>
-                        </Link>
-                      </div>
-                      <div className="btn-area1">
-                        <Link href="/demo-2" className="vl-btn1 m-0">
-                          VIEW DEMO
-                        </Link>
-                      </div>
-                      <div className="space32" />
-                      <div className="text text-center">
-                        <Link href="/demo-2">
-                          Water Effect
-                        </Link>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col lg={6} data-aos="fade-left" data-aos-duration={1000}>
-                    <div className="images-area2">
-                      <div className="img1">
-                        <Link href="/demo-3">
-                          <video muted autoPlay loop>
-                            <source src="/video2.mp4" type="video/mp4" />
-                          </video>
-                        </Link>
-                      </div>
-                      <div className="btn-area1">
-                        <Link href="/demo-3" className="vl-btn1 m-0">
-                          VIEW DEMO
-                        </Link>
-                      </div>
-                      <div className="space32" />
-                      <div className="text text-center">
-                        <Link href="/demo-3">
-                          Particles Effect
-                        </Link>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col lg={6} data-aos="fade-right" data-aos-duration={1000}>
-                    <div className="images-area2">
-                      <div className="img1">
-                        <Link href="/demo-4">
-                          <video muted autoPlay loop>
-                            <source src="/video3.mp4" type="video/mp4" />
-                          </video>
-                        </Link>
-                      </div>
-                      <div className="btn-area1">
-                        <Link href="/demo-4" className="vl-btn1 m-0">
-                          VIEW DEMO
-                        </Link>
-                      </div>
-                      <div className="space32" />
-                      <div className="text text-center">
-                        <Link href="/demo-4">
-                          Noise Effect
-                        </Link>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col lg={6} data-aos="fade-left" data-aos-duration={1000}>
-                    <div className="images-area2">
-                      <div className="img1">
-                        <Link href="/demo-5">
-                          <video muted autoPlay loop>
-                            <source src="/video4.mp4" type="video/mp4" />
-                          </video>
-                        </Link>
-                      </div>
-                      <div className="btn-area1">
-                        <Link href="/demo-5" className="vl-btn1 m-0">
-                          VIEW DEMO
-                        </Link>
-                      </div>
-                      <div className="space32" />
-                      <div className="text text-center">
-                        <Link href="/demo-5">
-                          3D Effect
-                        </Link>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col lg={6} data-aos="fade-right" data-aos-duration={1000}>
-                    <div className="images-area2">
-                      <div className="img1">
-                        <Link href="/demo-6">
-                          <video muted autoPlay loop>
-                            <source src="/video5.mp4" type="video/mp4" />
-                          </video>
-                        </Link>
-                      </div>
-                      <div className="btn-area1">
-                        <Link href="/demo-6" className="vl-btn1 m-0">
-                          VIEW DEMO
-                        </Link>
-                      </div>
-                      <div className="space32" />
-                      <div className="text text-center">
-                        <Link href="/demo-6">
-                          Earth Line Sphere
-                        </Link>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col lg={6} data-aos="fade-left" data-aos-duration={1000}>
-                    <div className="images-area2">
-                      <div className="img1">
-                        <Link href="/demo-7">
-                          <Image src={Preview2} alt="" />
-                        </Link>
-                      </div>
-                      <div className="btn-area1">
-                        <Link href="/demo-7" className="vl-btn1 m-0">
-                          VIEW DEMO
-                        </Link>
-                      </div>
-                      <div className="space32" />
-                      <div className="text text-center">
-                        <Link href="/demo-7">
-                          Solid Color
-                        </Link>
-                      </div>
-                    </div>
-                  </Col>
-                </Row>
-                <div className="space30" />
-                <div className="footer-area2">
-                  <p className="text-center">© 2024 OVRO. All Rights Reserved.</p>
-                </div>
-                <div className="space32" />
-              </Col>
-            </Row>
-          </div>
+          </Container>
         </div>
       </div>
     </>
   )
 }
 
-export default PreviewPage
+export default Home
+

@@ -9,7 +9,7 @@ import AppProviders from "@/components/wrappers/AppProviders";
 import favicon from "@/assets/img/logo/fav-logo1.png";
 
 export const metadata: Metadata = {
-  title: "Ovro - NextJS Personal Portfolio Template",
+  title: "Carlos Osornio Enriquez - Portfolio",
   icons: favicon.src,
 };
 

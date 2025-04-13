@@ -13,30 +13,30 @@ const IconVertical = () => {
   return (
     <>
       <div id="list-example" className="list-group">
-        <a className="list-group-item list-group-item-action active" href="#list-item-1">
+        <a className="list-group-item list-group-item-action active" href="#home">
           <Image src={Home1} alt="" /> <span>Home</span>
         </a>
-        <a className="list-group-item list-group-item-action" href="#list-item-2">
-          <Image src={Home2} alt="" /> <span>About Us</span>
+        <a className="list-group-item list-group-item-action" href="#about">
+          <Image src={Home2} alt="" /> <span>About</span>
         </a>
-        <a className="list-group-item list-group-item-action" href="#list-item-3">
+        {/* <a className="list-group-item list-group-item-action" href="#list-item-3">
           <Image src={Home3} alt="" /> <span>Our Service</span>
+        </a> */}
+        <a className="list-group-item list-group-item-action" href="#skills">
+          <Image src={Home4} alt="" /> <span>Skills</span>
         </a>
-        <a className="list-group-item list-group-item-action" href="#list-item-4">
-          <Image src={Home4} alt="" /> <span>My Skill</span>
-        </a>
-        <a className="list-group-item list-group-item-action" href="#list-item-5">
+        <a className="list-group-item list-group-item-action" href="#portfolio">
           <Image src={Home5} alt="" /> <span>Portfolio</span>
         </a>
-        <a className="list-group-item list-group-item-action" href="#list-item-6">
+        {/* <a className="list-group-item list-group-item-action" href="#list-item-6">
           <Image src={Home6} alt="" /> <span>Testimonial</span>
-        </a>
-        <a className="list-group-item list-group-item-action" href="#list-item-7">
+        </a> */}
+        {/* <a className="list-group-item list-group-item-action" href="#list-item-7">
           <Image src={Home8} alt="" /> <span>Our Blog</span>
-        </a>
-        <a className="list-group-item list-group-item-action m-0" href="#list-item-8">
-          <Image src={Home7} alt="" /> <span>Contact Us</span>
-        </a>
+        </a> */}
+        {/* <a className="list-group-item list-group-item-action m-0" href="#list-item-8">
+          <Image src={Home7} alt="" /> <span>Contact Me</span>
+        </a> */}
       </div>
     </>
   )

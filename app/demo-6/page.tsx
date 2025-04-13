@@ -15,7 +15,7 @@ const Demo6Page = () => {
   return (
     <>
       <div className="body1">
-        <TopNav />
+        {/* <TopNav /> */}
         <div className="main-hero-area5 parallaxie">
         <video className="body-overlay" muted autoPlay loop>
             <source src="/video5.mp4" type="video/mp4" />
@@ -33,15 +33,15 @@ const Demo6Page = () => {
                   <Main />
                   <div className="space50" />
                   <About />
-                  <Service />
+                  {/* <Service /> */}
                   <div className="space50" />
                   <Skills />
                   <div className="space30" />
                   <Portfolio />
-                  <div className="space30" />
-                  <Testimonial />
-                  <div className="space30" />
-                  <Blog />
+                  {/* <div className="space30" /> */}
+                  {/* <Testimonial /> */}
+                  {/* <div className="space30" /> */}
+                  {/* <Blog /> */}
                   <div className="space60" />
                   <Contact />
                 </div>
