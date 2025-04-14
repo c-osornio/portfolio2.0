@@ -45,15 +45,28 @@ const Portfolio = () => {
                 </div>
               </Col>
               <div className="space50" />
-              <Col lg={12} data-aos="fade-left" data-aos-duration={1000}>
+              <Col lg={12} data-aos="fade-left" data-aos-duration={1200}>
                 <div className="portfolio-boxarea click-here">
-                  <div className="img1">
-                    <Link target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/TheNFLGroundGame/TheNFLGroundGame">
-                      <Image src={Portfolio1} alt="" />
-                    </Link>
+                  <div className="about-section-area" >
+                    <div className="img1">
+                      <Link target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/TheNFLGroundGame/TheNFLGroundGame">
+                        <Image src={Portfolio1} alt="" />
+                      </Link>
+                    </div>
+                    <div className="space8" />
+                    <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
+                      <Link className='about-main-boxes' target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/TheNFLGroundGame/TheNFLGroundGame" >
+                        <i>The NFL Ground Game</i>
+                        <div className="space8" />
+                        <h6>Tableau | Python | Pandas | Numpy | Seaborn | Matplotlib | Correlation | Data Merging 
+                            <div className="space8" />
+                            <p>● Leveraged NFL player tracking data to analyze movement patterns across different playing surfaces, developed data-driven
+                            insights on injury prevention and interactive Tableau visualizations of player movement metrics and injury correlations.</p>
+                        </h6>
+                      </Link>
+                    </div>
                   </div>
                   <div className="space24" />
-                  <Link href="">The NFL Ground Game</Link>
                 </div>
               </Col>
               {/* <Col lg={6} md={6} data-aos="fade-left" data-aos-duration={1100}>
@@ -78,59 +91,105 @@ const Portfolio = () => {
                   <Link href="">Leadlogic- Dashboard Design</Link>
                 </div>
               </Col> */}
-              <div className="col-lg-12" data-aos="fade-left" data-aos-duration={1100}>
-                <div className="portfolio-boxarea click-here">
+              <div className="col-lg-12" data-aos="fade-left" data-aos-duration={1300}>
+                <div className="portfolio-boxarea click-here about-section-area">
                   <div className="img1">
                     <Link target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/AEMRCaseStudy_17359878159940/AMERCaseStudy">
                       <Image src={Portfolio2} alt="" />
                     </Link>
                   </div>
-                  <div className="space24" />
-                  <Link href="">American Energy Market Regulator</Link>
+                  <div className="space8" />
+                  <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
+                      <Link className='about-main-boxes' target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/AEMRCaseStudy_17359878159940/AMERCaseStudy" >
+                        <i>American Energy Market Regulator</i>
+                        <div className="space8" />
+                        <h6>Tableau | SQL | Statistical Analysis | Dashboard Design | Strategic Analysis | Operational Analytics 
+                            <div className="space8" />
+                            <p>● Comprehensive analysis of the American Energy Market Regulator's outage data using SQL and Tableau to enhance domestic energy network reliability. Developed interactive dashboards and strategic recommendations that led to identifying critical patterns in outage management, resulting in targeted solutions for high-risk participants and a framework for reducing the 30.6% year-over-year increase in outage duration.</p>
+                        </h6>
+                      </Link>
+                    </div>
                 </div>
               </div>
-              <div className="col-lg-12" data-aos="fade-left" data-aos-duration={1100}>
-                <div className="portfolio-boxarea click-here">
+              <div className="col-lg-12" data-aos="fade-left" data-aos-duration={1400}>
+                <div className="portfolio-boxarea click-here about-section-area">
                   <div className="img1">
                     <Link target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/TacklingVehicleTheftinLosAngeles/TacklingVehicleTheftinLosAngeles">
                       <Image src={Portfolio3} alt="" />
                     </Link>
                   </div>
-                  <div className="space24" />
-                  <Link href="">Tackling Vehicle Theft in Los Angeles</Link>
+                  <div className="space8" />
+                  <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
+                      <Link className='about-main-boxes' target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/TacklingVehicleTheftinLosAngeles/TacklingVehicleTheftinLosAngeles" >
+                        <i>Tackling Vehicle Theft in Los Angeles</i>
+                        <div className="space8" />
+                        <h6>Tableau | Cluster Analysis | Statistical Analysis | Time-Series Analysis | Geospatial Analysis 
+                            <div className="space8" />
+                            <p>● Utilized Tableau software to create interactive crime analysis dashboards leveraging geospatial mapping, time series analysis, and multi-dimensional
+                            filtering to visualize Los Angeles vehicle theft patterns from 2010 to 2023. </p>
+                        </h6>
+                      </Link>
+                    </div>
                 </div>
               </div>
-              <div className="col-lg-12" data-aos="fade-left" data-aos-duration={1100}>
-                <div className="portfolio-boxarea click-here">
+              <div className="col-lg-12" data-aos="fade-left" data-aos-duration={1500}>
+                <div className="portfolio-boxarea click-here about-section-area">
                   <div className="img1">
                     <Link target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/ChemCorpInc__17230653878990/ChemCorpInc">
                       <Image src={Portfolio4} alt="" />
                     </Link>
                   </div>
-                  <div className="space24" />
-                  <Link href="">ChemCorp Incorporated</Link>
+                  <div className="space8" />
+                  <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
+                      <Link className='about-main-boxes' target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/ChemCorpInc__17230653878990/ChemCorpInc" >
+                        <i>ChemCorp Incorporated Case Study</i>
+                        <div className="space8" />
+                        <h6>Tableau | SQL | Market Analysis | Profit Margin Analysis | Geographic Analysis | Revenue Forecasting
+                            <div className="space8" />
+                            <p>● Leveraged SQL and Tableau to dissect ChemCorp's chemical portfolio and customer revenue data, identifying key growth opportunities and divestment strategies to reduce customer attrition. The project revealed strategic insights on high-performing sectors, geographic revenue drivers, and targeted opportunities to optimize product focus and enhance profitability.</p>
+                        </h6>
+                      </Link>
+                    </div>
                 </div>
               </div>
-              <div className="col-lg-12" data-aos="fade-left" data-aos-duration={1100}>
-                <div className="portfolio-boxarea click-here">
+              <div className="col-lg-12" data-aos="fade-left" data-aos-duration={1600}>
+                <div className="portfolio-boxarea click-here about-section-area">
                   <div className="img1">
                     <Link target='_blank' href="https://github.com/Coding-Dojo-Group-3/jocs">
                       <Image src={Portfolio5} alt="" />
                     </Link>
                   </div>
-                  <div className="space24" />
-                  <Link href="">Just 4 Kicks</Link>
+                  <div className="space8" />
+                  <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
+                      <Link className='about-main-boxes' target='_blank' href="https://github.com/Coding-Dojo-Group-3/jocs" >
+                        <i>Just 4 Kicks</i>
+                        <div className="space8" />
+                        <h6>JavaScript | React | Redux | MongoDB | Express | Node.js | Tailwind | CSS 
+                            <div className="space8" />
+                            <p>●	Developed responsive single page application with React/Redux, integrated PayPal API for seamless payment processing, and deployed with AWS EC2 for enhanced performance and scalability. </p>
+                        </h6>
+                      </Link>
+                    </div>
                 </div>
               </div>
-              <div className="col-lg-12" data-aos="fade-left" data-aos-duration={1100}>
-                <div className="portfolio-boxarea click-here">
+              <div className="col-lg-12" data-aos="fade-left" data-aos-duration={1700}>
+                <div className="portfolio-boxarea click-here about-section-area">
                   <div className="img1">
                     <Link target='_blank' href="https://github.com/c-osornio/SecretSanta-MERN">
                       <Image src={Portfolio6} alt="" />
                     </Link>
                   </div>
-                  <div className="space24" />
-                  <Link href="">Kringle</Link>
+                  <div className="space8" />
+                  <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
+                      <Link className='about-main-boxes' target='_blank' href="https://github.com/c-osornio/SecretSanta-MERN" >
+                        <i>Kringle</i>
+                        <div className="space8" />
+                        <h6>JavaScript | React | useContext/useReducer | MongoDB | Mongoose | Express | Node.js | Bootstrap
+                            <div className="space8" />
+                            <p>●	Developed a feature-rich, JavaScript full-stack application for organizing Secret Santa gift exchanges using React, useContext/useReducer for global state management, and deployed through AWS EC2 for future scalability.</p>
+                        </h6>
+                      </Link>
+                    </div>
                 </div>
               </div>
             </Row>
