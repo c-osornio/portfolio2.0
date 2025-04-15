@@ -5,6 +5,7 @@ import Portfolio3 from '@/assets/img/all-images/portfolio/Tackling_Theft.png'
 import Portfolio4 from '@/assets/img/all-images/portfolio/chemcorp.png'
 import Portfolio5 from '@/assets/img/all-images/portfolio/just4kicks.jpg'
 import Portfolio6 from '@/assets/img/all-images/portfolio/kringle.jpg'
+import Portfolio7 from '@/assets/img/all-images/portfolio/SWC.png'
 import Sublogo1 from '@/assets/img/icons/sublogo1.svg'
 import Aos from 'aos'
 import Image from 'next/image'
@@ -58,10 +59,11 @@ const Portfolio = () => {
                       <Link className='about-main-boxes' target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/TheNFLGroundGame/TheNFLGroundGame" >
                         <i>The NFL Ground Game</i>
                         <div className="space8" />
-                        <h6>Tableau | Python | Pandas | Numpy | Seaborn | Matplotlib | Correlation | Data Merging 
+                        <h6>Tableau | Python | Jupyter Notebook | Pandas | Numpy | Seaborn | Matplotlib | Correlation | Data Merging 
                             <div className="space8" />
                             <p>● Leveraged NFL player tracking data to analyze movement patterns across different playing surfaces, developed data-driven
                             insights on injury prevention and interactive Tableau visualizations of player movement metrics and injury correlations.</p>
+                            <p>● <Link href='https://github.com/c-osornio/THE_NFL_GROUND_GAME/blob/main/The_NFL_Ground_Game.ipynb'><h6>Link to my jupyter notebook</h6></Link> </p>
                         </h6>
                       </Link>
                     </div>
@@ -106,6 +108,26 @@ const Portfolio = () => {
                         <h6>Tableau | SQL | Statistical Analysis | Dashboard Design | Strategic Analysis | Operational Analytics 
                             <div className="space8" />
                             <p>● Comprehensive analysis of the American Energy Market Regulator's outage data using SQL and Tableau to enhance domestic energy network reliability. Developed interactive dashboards and strategic recommendations that led to identifying critical patterns in outage management, resulting in targeted solutions for high-risk participants and a framework for reducing the 30.6% year-over-year increase in outage duration.</p>
+                        </h6>
+                      </Link>
+                    </div>
+                </div>
+              </div>
+              <div className="col-lg-12" data-aos="fade-left" data-aos-duration={1300}>
+                <div className="portfolio-boxarea click-here about-section-area">
+                  <div className="img1">
+                    <Link target='_blank' href="https://github.com/c-osornio/southern_water_corp/blob/main/Southern_Water_Corp_OLS_Case_Study.ipynb">
+                      <Image src={Portfolio7} alt="" />
+                    </Link>
+                  </div>
+                  <div className="space8" />
+                  <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
+                      <Link className='about-main-boxes' target='_blank' href="https://github.com/c-osornio/southern_water_corp/blob/main/Southern_Water_Corp_OLS_Case_Study.ipynb" >
+                        <i>Southern Water Corperation</i>
+                        <div className="space8" />
+                        <h6>Python | Pandas | NumPy | Matplotlib | Seaborn | Regression | EDA | Correlation | Descriptive Statistics | Outlier Detection | Inferential Statistics | Validating Predictions
+                            <div className="space8" />
+                            <p>● Spearheaded an end-to-end Python analysis of Southern Water Corp's pump data, implementing advanced statistical techniques including outlier detection, correlation analysis, and linear regression modeling. Created dynamic visualizations using dual axes plots and heatmaps that transformed raw operational data into actionable insights, while developing automated data cleaning processes.</p>
                         </h6>
                       </Link>
                     </div>
