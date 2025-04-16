@@ -49,9 +49,9 @@ const TopNav = () => {
         </div>
       </header>
 
-      <Offcanvas show={show} onHide={handleClose} placement="end" scroll={true} className="header-site-icon">
-        <div className="slide-bar slide-bar1" style={{ padding: '50px' }}>
-        <button 
+      <Offcanvas show={show} onHide={handleClose} placement="end" scroll={true} className="header-site-icon hero-heading-area arrow">
+        <div className="slide-bar slide-bar1" style={{ padding: '50px'}}>
+        <button className='arrow1'
         onClick={handleClose} 
         style={{ 
           color: 'white',
@@ -60,7 +60,7 @@ const TopNav = () => {
           fontSize: '24px', 
           position: 'absolute', 
           top: '10px', 
-          right: '75px', 
+          right: '15%', 
           cursor: 'pointer' 
         }} 
         aria-label="Close"
