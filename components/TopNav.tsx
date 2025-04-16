@@ -1,5 +1,6 @@
 'use client'
 import Bars from '@/assets/img/icons/bars-icons1.svg'
+import Arrow from '@/assets/img/icons/arrow1.svg'
 import Mail1 from '@/assets/img/icons/mail1.svg'
 import Logo from '@/assets/img/logo/data.svg'
 import Logo2 from '@/assets/img/logo/logo2.png'
@@ -50,6 +51,22 @@ const TopNav = () => {
 
       <Offcanvas show={show} onHide={handleClose} placement="end" scroll={true} className="header-site-icon">
         <div className="slide-bar slide-bar1" style={{ padding: '50px' }}>
+        <button 
+        onClick={handleClose} 
+        style={{ 
+          color: 'white',
+          background: 'none', 
+          border: 'none', 
+          fontSize: '24px', 
+          position: 'absolute', 
+          top: '10px', 
+          right: '75px', 
+          cursor: 'pointer' 
+        }} 
+        aria-label="Close"
+      >
+        <Image src={Arrow} alt="" />
+      </button>
           <div className="sidebar-info">
             <div className="sidebar-logo">
               {/* <Link href="/">
