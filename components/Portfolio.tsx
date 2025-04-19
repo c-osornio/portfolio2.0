@@ -56,16 +56,16 @@ const Portfolio = () => {
                     </div>
                     <div className="space8" />
                     <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
-                      <Link className='about-main-boxes' target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/TheNFLGroundGame/TheNFLGroundGame" >
-                        <i>The NFL Ground Game</i>
+                      <div className='about-main-boxes'>
+                        <h4><i>The NFL Ground Game</i></h4>
                         <div className="space8" />
-                        <h6>Tableau | Python | Jupyter Notebook | Pandas | Numpy | Seaborn | Matplotlib | Correlation | Data Merging 
+                        <p>Tableau | Python | Jupyter Notebook | Pandas | Numpy | Seaborn | Matplotlib | Correlation | Data Merging 
                             <div className="space8" />
                             <p>● Leveraged NFL player tracking data to analyze movement patterns across different playing surfaces, developed data-driven
                             insights on injury prevention and interactive Tableau visualizations of player movement metrics and injury correlations.</p>
                             <p>● <Link href='https://github.com/c-osornio/THE_NFL_GROUND_GAME/blob/main/The_NFL_Ground_Game.ipynb'><h6>Link to my jupyter notebook</h6></Link> </p>
-                        </h6>
-                      </Link>
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <div className="space24" />
@@ -102,14 +102,14 @@ const Portfolio = () => {
                   </div>
                   <div className="space8" />
                   <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
-                      <Link className='about-main-boxes' target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/AEMRCaseStudy_17359878159940/AMERCaseStudy" >
-                        <i>American Energy Market Regulator</i>
+                      <div className='about-main-boxes'>
+                        <h4><i>American Energy Market Regulator</i></h4>
                         <div className="space8" />
-                        <h6>Tableau | SQL | Statistical Analysis | Dashboard Design | Strategic Analysis | Operational Analytics 
+                        <p>Tableau | SQL | Statistical Analysis | Dashboard Design | Strategic Analysis | Operational Analytics 
                             <div className="space8" />
                             <p>● Comprehensive analysis of the American Energy Market Regulator's outage data using SQL and Tableau to enhance domestic energy network reliability. Developed interactive dashboards and strategic recommendations that led to identifying critical patterns in outage management, resulting in targeted solutions for high-risk participants and a framework for reducing the 30.6% year-over-year increase in outage duration.</p>
-                        </h6>
-                      </Link>
+                        </p>
+                      </div>
                     </div>
                 </div>
               </div>
@@ -122,14 +122,14 @@ const Portfolio = () => {
                   </div>
                   <div className="space8" />
                   <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
-                      <Link className='about-main-boxes' target='_blank' href="https://github.com/c-osornio/southern_water_corp/blob/main/Southern_Water_Corp_OLS_Case_Study.ipynb" >
-                        <i>Southern Water Corperation</i>
+                      <div className='about-main-boxes'>
+                        <h4><i>Southern Water Corperation</i></h4>
                         <div className="space8" />
-                        <h6>Python | Pandas | NumPy | Matplotlib | Seaborn | Regression | EDA | Correlation | Descriptive Statistics | Outlier Detection | Inferential Statistics | Validating Predictions
+                        <p>Python | Pandas | NumPy | Matplotlib | Seaborn | Regression | EDA | Correlation | Descriptive Statistics | Outlier Detection | Inferential Statistics | Validating Predictions
                             <div className="space8" />
                             <p>● Spearheaded an end-to-end Python analysis of Southern Water Corp's pump data, implementing advanced statistical techniques including outlier detection, correlation analysis, and linear regression modeling. Created dynamic visualizations using dual axes plots and heatmaps that transformed raw operational data into actionable insights, while developing automated data cleaning processes.</p>
-                        </h6>
-                      </Link>
+                        </p>
+                      </div>
                     </div>
                 </div>
               </div>
@@ -142,15 +142,15 @@ const Portfolio = () => {
                   </div>
                   <div className="space8" />
                   <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
-                      <Link className='about-main-boxes' target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/TacklingVehicleTheftinLosAngeles/TacklingVehicleTheftinLosAngeles" >
-                        <i>Tackling Vehicle Theft in Los Angeles</i>
+                      <div className='about-main-boxes'>
+                        <h4><i>Tackling Vehicle Theft in Los Angeles</i></h4>
                         <div className="space8" />
-                        <h6>Tableau | Cluster Analysis | Statistical Analysis | Time-Series Analysis | Geospatial Analysis 
+                        <p>Tableau | Cluster Analysis | Statistical Analysis | Time-Series Analysis | Geospatial Analysis 
                             <div className="space8" />
                             <p>● Utilized Tableau software to create interactive crime analysis dashboards leveraging geospatial mapping, time series analysis, and multi-dimensional
                             filtering to visualize Los Angeles vehicle theft patterns from 2010 to 2023. </p>
-                        </h6>
-                      </Link>
+                        </p>
+                      </div>
                     </div>
                 </div>
               </div>
@@ -163,14 +163,14 @@ const Portfolio = () => {
                   </div>
                   <div className="space8" />
                   <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
-                      <Link className='about-main-boxes' target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/ChemCorpInc__17230653878990/ChemCorpInc" >
-                        <i>ChemCorp Incorporated Case Study</i>
+                      <div className='about-main-boxes' >
+                        <h4><i>ChemCorp Incorporated Case Study</i></h4>
                         <div className="space8" />
-                        <h6>Tableau | SQL | Market Analysis | Profit Margin Analysis | Geographic Analysis | Revenue Forecasting
+                        <p>Tableau | SQL | Market Analysis | Profit Margin Analysis | Geographic Analysis | Revenue Forecasting
                             <div className="space8" />
                             <p>● Leveraged SQL and Tableau to dissect ChemCorp's chemical portfolio and customer revenue data, identifying key growth opportunities and divestment strategies to reduce customer attrition. The project revealed strategic insights on high-performing sectors, geographic revenue drivers, and targeted opportunities to optimize product focus and enhance profitability.</p>
-                        </h6>
-                      </Link>
+                        </p>
+                      </div>
                     </div>
                 </div>
               </div>
@@ -183,14 +183,14 @@ const Portfolio = () => {
                   </div>
                   <div className="space8" />
                   <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
-                      <Link className='about-main-boxes' target='_blank' href="https://github.com/Coding-Dojo-Group-3/jocs" >
-                        <i>Just 4 Kicks</i>
+                      <div className='about-main-boxes'>
+                        <h4><i>Just 4 Kicks</i></h4>
                         <div className="space8" />
-                        <h6>JavaScript | React | Redux | MongoDB | Express | Node.js | Tailwind | CSS 
+                        <p>JavaScript | React | Redux | MongoDB | Express | Node.js | Tailwind | CSS 
                             <div className="space8" />
                             <p>●	Developed responsive single page application with React/Redux, integrated PayPal API for seamless payment processing, and deployed with AWS EC2 for enhanced performance and scalability. </p>
-                        </h6>
-                      </Link>
+                        </p>
+                      </div>
                     </div>
                 </div>
               </div>
@@ -203,14 +203,14 @@ const Portfolio = () => {
                   </div>
                   <div className="space8" />
                   <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
-                      <Link className='about-main-boxes' target='_blank' href="https://github.com/c-osornio/SecretSanta-MERN" >
-                        <i>Kringle</i>
+                      <div className='about-main-boxes'>
+                        <h4><i>Kringle</i></h4>
                         <div className="space8" />
-                        <h6>JavaScript | React | useContext/useReducer | MongoDB | Mongoose | Express | Node.js | Bootstrap
+                        <p>JavaScript | React | useContext/useReducer | MongoDB | Mongoose | Express | Node.js | Bootstrap
                             <div className="space8" />
                             <p>●	Developed a feature-rich, JavaScript full-stack application for organizing Secret Santa gift exchanges using React, useContext/useReducer for global state management, and deployed through AWS EC2 for future scalability.</p>
-                        </h6>
-                      </Link>
+                        </p>
+                      </div>
                     </div>
                 </div>
               </div>
