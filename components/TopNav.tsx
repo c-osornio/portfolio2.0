@@ -60,7 +60,7 @@ const TopNav = () => {
           fontSize: '24px', 
           position: 'absolute', 
           top: '10px', 
-          right: '15%', 
+          right: '10px', 
           cursor: 'pointer' 
         }} 
         aria-label="Close"
