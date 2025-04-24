@@ -116,7 +116,7 @@ const Portfolio = () => {
               <div className="col-lg-12" data-aos="fade-left" data-aos-duration={1300}>
                 <div className="portfolio-boxarea click-here about-section-area">
                   <div className="img1">
-                    <Link target='_blank' href="https://github.com/c-osornio/southern_water_corp/blob/main/Southern_Water_Corp_OLS_Case_Study.ipynb">
+                    <Link target='_blank' href="https://github.com/c-osornio/southern_water_corp/blob/main/Southern_Water_Corp.ipynb">
                       <Image src={Portfolio7} alt="" />
                     </Link>
                   </div>
