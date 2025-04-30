@@ -57,7 +57,7 @@ const Portfolio = () => {
                     <div className="space8" />
                     <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
                       <div className='about-main-boxes'>
-                        <h4><i>The NFL Ground Game</i></h4>
+                        <Link target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/TheNFLGroundGame/TheNFLGroundGame"><i>The NFL Ground Game</i></Link>
                         <div className="space8" />
                         <p>Tableau | Python | Jupyter Notebook | Pandas | Numpy | Seaborn | Matplotlib | Correlation | Data Merging 
                             <div className="space8" />
@@ -103,7 +103,7 @@ const Portfolio = () => {
                   <div className="space8" />
                   <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
                       <div className='about-main-boxes'>
-                        <h4><i>American Energy Market Regulator</i></h4>
+                        <Link target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/AEMRCaseStudy_17359878159940/AMERCaseStudy"><i>American Energy Market Regulator</i></Link>
                         <div className="space8" />
                         <p>Tableau | SQL | Statistical Analysis | Dashboard Design | Strategic Analysis | Operational Analytics 
                             <div className="space8" />
@@ -123,7 +123,7 @@ const Portfolio = () => {
                   <div className="space8" />
                   <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
                       <div className='about-main-boxes'>
-                        <h4><i>Southern Water Corperation</i></h4>
+                        <Link target='_blank' href="https://github.com/c-osornio/southern_water_corp/blob/main/Southern_Water_Corp.ipynb"><i>Southern Water Corperation</i></Link>
                         <div className="space8" />
                         <p>Python | Pandas | NumPy | Matplotlib | Seaborn | Regression | EDA | Correlation | Descriptive Statistics | Outlier Detection | Inferential Statistics | Validating Predictions
                             <div className="space8" />
@@ -143,7 +143,7 @@ const Portfolio = () => {
                   <div className="space8" />
                   <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
                       <div className='about-main-boxes'>
-                        <h4><i>Tackling Vehicle Theft in Los Angeles</i></h4>
+                        <Link target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/TacklingVehicleTheftinLosAngeles/TacklingVehicleTheftinLosAngeles"><i>Tackling Vehicle Theft in Los Angeles</i></Link>
                         <div className="space8" />
                         <p>Tableau | Cluster Analysis | Statistical Analysis | Time-Series Analysis | Geospatial Analysis 
                             <div className="space8" />
@@ -164,7 +164,7 @@ const Portfolio = () => {
                   <div className="space8" />
                   <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
                       <div className='about-main-boxes' >
-                        <h4><i>ChemCorp Incorporated Case Study</i></h4>
+                        <Link target='_blank' href="https://public.tableau.com/app/profile/carlos.osornio.enriquez/viz/ChemCorpInc__17230653878990/ChemCorpInc"><i>ChemCorp Incorporated Case Study</i></Link>
                         <div className="space8" />
                         <p>Tableau | SQL | Market Analysis | Profit Margin Analysis | Geographic Analysis | Revenue Forecasting
                             <div className="space8" />
@@ -184,7 +184,7 @@ const Portfolio = () => {
                   <div className="space8" />
                   <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
                       <div className='about-main-boxes'>
-                        <h4><i>Just 4 Kicks</i></h4>
+                        <Link target='_blank'  href="https://github.com/Coding-Dojo-Group-3/jocs"><i>Just 4 Kicks</i></Link>
                         <div className="space8" />
                         <p>JavaScript | React | Redux | MongoDB | Express | Node.js | Tailwind | CSS 
                             <div className="space8" />
@@ -204,7 +204,7 @@ const Portfolio = () => {
                   <div className="space8" />
                   <div className="about-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
                       <div className='about-main-boxes'>
-                        <h4><i>Kringle</i></h4>
+                        <Link target='_blank' href="https://github.com/c-osornio/SecretSanta-MERN"> <i>Kringle</i></Link>
                         <div className="space8" />
                         <p>JavaScript | React | useContext/useReducer | MongoDB | Mongoose | Express | Node.js | Bootstrap
                             <div className="space8" />
