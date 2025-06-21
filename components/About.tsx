@@ -108,6 +108,50 @@ const About = () => {
                 <h3>Work Experience</h3>
                 <div className="space16" />
                 <div className="about-others-box" data-aos="zoom-in" data-aos-duration={900}>
+                  <Link href="">June 2025 - Present</Link>
+                  <div className="space8" />
+                  <h4>
+                    <Link href="">Financial Analyst</Link>
+                  </h4>
+                  <p>HomeXpress Mortgage Corp | Santa Ana, CA</p>
+                  <div className="space16" />
+                    <p>
+                      ● Leading the rollout and integration of Prudent AI, the company’s new artificial intelligence underwriting platform, to modernize income analysis and accelerate loan decisioning.
+                    </p>
+                    <div className="space8" />
+                    <p>
+                      ● Conducting in-depth financial data analysis using bank statements and other financial documentation to assess borrower qualifications for complex non-QM mortgage scenarios.
+                    </p>
+                    <div className="space8" />
+                    <p>
+                    ● Designing and maintaining scalable income analysis models in Excel, used by underwriting and sales teams to ensure consistency and efficiency across loan files.
+                    </p>
+                    <div className="space8" />
+                    <p>
+                    ● Partnering with cross-functional teams to streamline documentation workflows, improve data quality, and identify automation opportunities within the loan origination process.
+                    </p>
+                </div>
+                <div className="about-others-box" data-aos="zoom-in" data-aos-duration={900}>
+                  <Link href="">April 2025 - June 2025</Link>
+                  <div className="space8" />
+                  <h4>
+                    <Link href="">Data Analyst Intern</Link>
+                  </h4>
+                  <p>Snow Data Science | Remote</p>
+                  <div className="space16" />
+                    <p>
+                      ● Conducted end-to-end analysis of U.S. data analyst job listings, focusing on location trends, per-capita rankings, and tool-specific demand (Excel, SQL, Python, Power BI).
+                    </p>
+                    <div className="space8" />
+                    <p>
+                      ● Performed data cleaning and exploratory analysis in Python; built interactive geospatial dashboards and visualizations in Tableau.
+                    </p>
+                    <div className="space8" />
+                    <p>
+                    ● Led project coordination, task delegation, and cross-functional collaboration in a six-member team.
+                    </p>
+                </div>
+                <div className="about-others-box" data-aos="zoom-in" data-aos-duration={900}>
                   <Link href="">September 2019 - April 2022</Link>
                   <div className="space8" />
                   <h4>
@@ -232,6 +276,8 @@ const About = () => {
                   </h4>
                   <div className="space8" />
                   <p>Georgia Institute of Technology</p>
+                  <div className="space8" />
+                  <p>Top-5 Nationally Ranked Data Science & Analytics Program</p>
                 </div>
                 <div className="about-others-box" data-aos="zoom-in" data-aos-duration={1100}>
                   <Link href="">Class of November 2024</Link>
