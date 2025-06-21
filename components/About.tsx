@@ -116,7 +116,7 @@ const About = () => {
                   <p>HomeXpress Mortgage Corp | Santa Ana, CA</p>
                   <div className="space16" />
                     <p>
-                      ● Leading the rollout and integration of Prudent AI, the company’s new artificial intelligence underwriting platform, to modernize income analysis and accelerate loan decisioning.
+                      ● Leading the rollout and integration of the company’s new artificial intelligence underwriting platform, to modernize income analysis and accelerate loan decisioning.
                     </p>
                     <div className="space8" />
                     <p>
